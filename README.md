@@ -1,6 +1,6 @@
 # Piranhabon
 
-convert **your** NAIST Timetable into Google Calendar
+convert **your** NAIST timetable into Google Calendar
 
 ## Usage
 

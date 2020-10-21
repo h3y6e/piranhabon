@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "Piranhabon"
 version = "0.1.0"
-description = "convert my NAIST timetable into Google Calendar"
+description = "convert your NAIST timetable into Google Calendar"
 authors = ["5ebec <hash.a5ebec@gmail.com>"]
 
 [tool.poetry.dependencies]
