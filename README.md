@@ -12,6 +12,10 @@ $ poetry install
 $ poetry run python piranhabon.py
 ```
 
+### or using heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## LICENSE
 
 [MIT](./LICENSE)

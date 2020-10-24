@@ -1,0 +1,36 @@
+{
+  "name": "piranhabon",
+  "description": "convert your NAIST timetable into Google Calendar",
+  "repository": "https://github.com/5ebec/piranhabon",
+  "env": {
+    "USER_ACCOUNT": {
+      "description": "Your Mandara user name",
+      "value": ""
+    },
+    "USER_PASSWORD": {
+      "description": "Your Mandara user password",
+      "value": ""
+    },
+    "CALENDAR_ID": {
+      "description": "Your Google Calendar ID",
+      "value": ""
+    },
+    "YEAR": {
+      "description": "",
+      "value": ""
+    },
+    "DISABLE_POETRY_CREATE_RUNTIME_FILE": {
+      "description": "Current year",
+      "value": "1"
+    }
+  },
+  "addons": ["scheduler:standard"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
