@@ -13,9 +13,11 @@ $ source $HOME/.poetry/env
 
 ## Usage
 
-1. Create a `.env` with `.env.sample` as a reference.
-2. Download `credentials.json`
-3. Run script
+1. Create a `.env` with `.env.sample` as a reference.  
+   if you set `DELETE_ALL_EVENTS` to 1, all events in the year are deleted from the calendar.
+   You can prevent duplicate appointments from being registered.
+2. Download `credentials.json`.
+3. Run script,
 
 ```sh
 $ poetry install
