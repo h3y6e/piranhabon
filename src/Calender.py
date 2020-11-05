@@ -13,7 +13,8 @@ class Calender:
     def __init__(self):
         self.scopes = ['https://www.googleapis.com/auth/calendar']
         self.calId = os.environ['CALENDAR_ID']
-        self.year = int(os.environ['YEAR'])
+        today = datetime.date.today()
+        self.year = today.year - (1 if today.month <= 3 else 0)
 
         creds = None
         # The file token.pickle stores the user's access and refresh tokens,

@@ -1,9 +1,7 @@
 {
   "name": "Piranhabon",
   "description": "convert your NAIST timetable into Google Calendar",
-  "keywords": [
-    "python"
-  ],
+  "keywords": ["python"],
   "repository": "https://github.com/5ebec/piranhabon",
   "env": {
     "USER_ACCOUNT": {
@@ -18,9 +16,9 @@
       "description": "Your Google Calendar ID",
       "value": ""
     },
-    "YEAR": {
-      "description": "Current year",
-      "value": ""
+    "DELETE_ALL_EVENTS": {
+      "description": "",
+      "value": "1"
     },
     "DISABLE_POETRY_CREATE_RUNTIME_FILE": {
       "description": "",
