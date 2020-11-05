@@ -41,8 +41,10 @@ def main():
     subjects = list_bs.select('.tbl01.mB20 a[target=_blank]')
     print(subjects)
 
+    # if the user sets DELETE_ALL_EVENTS to 1,
     # delete all events in google calendar
-    calender.delete_all_events()
+    if os.environ['DELETE_ALL_EVENTS'] == '1':
+        calender.delete_all_events()
 
     # run export for each subjects
     for subject in subjects:
