@@ -1,7 +1,12 @@
 # Piranhabon
 
 convert **your** NAIST timetable into Google Calendar
-
+## Requirement
+poetry
+```sh
+$ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+$ source $HOME/.poetry/env
+```
 ## Usage
 
 1. Create a `.env` with `.env.sample` as a reference.
